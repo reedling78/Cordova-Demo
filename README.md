@@ -35,6 +35,11 @@ cordova platform install ios
 cordova platform install android
 ```
 
+### Install Bower
+```sh
+sudo bower install --allow-root
+```
+
 
 ## Build and Test
 
