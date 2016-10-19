@@ -30,4 +30,8 @@ In terminal navigate to the project directory you want to add platforms too.
 
 `cordova platform install android`
 
+## Build and Test
+`cordova run ios --emulator`
+
+`cordova run android --emulator`
 
