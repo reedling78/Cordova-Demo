@@ -3,6 +3,15 @@
 
 ## Getting Started 
 
+### Dependencies
+* NPM
+* Node
+* Cordova
+
+
+
+### Stack
+
 
 ### Install Simulator
 
