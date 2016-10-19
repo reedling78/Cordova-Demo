@@ -9,12 +9,14 @@ Install NPM and node from there website
 
 #### Cordova
 Install the Cordova application through NPM
+
 `sudo npm install -g cordova`
 
 #### Install Simulator
 
 iOS
 Make sure the latest Xcode is installed.
+
 `sudo npm install -g ios-sim`
 
 Android
@@ -23,7 +25,9 @@ Android
 #### Install Cordova Platforms
 
 In terminal navigate to the project directory you want to add platforms too.
+
 `cordova platform install ios`
+
 `cordova platform install android`
 
 
