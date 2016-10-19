@@ -1,0 +1,22 @@
+{
+  "name": "cordova-demo",
+  "version": "1.0.0",
+  "description": "## Getting Started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reedling78/Cordova-Demo.git"
+  },
+  "author": "Reed Rizzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reedling78/Cordova-Demo/issues"
+  },
+  "homepage": "https://github.com/reedling78/Cordova-Demo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
