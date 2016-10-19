@@ -16,7 +16,12 @@
     "url": "https://github.com/reedling78/Cordova-Demo/issues"
   },
   "homepage": "https://github.com/reedling78/Cordova-Demo#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-requirejs": "^0.1.3"
+  },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "amd-optimize": "^0.6.1",
+    "gulp-concat": "^2.6.0"
   }
 }
