@@ -1,0 +1,25 @@
+{
+  "name": "Cordova-Demo",
+  "homepage": "https://github.com/reedling78/Cordova-Demo",
+  "authors": [
+    "Reed Rizzo <reedling78@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "backbone": "~1.3.3"
+  }
+}
