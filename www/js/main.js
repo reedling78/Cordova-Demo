@@ -1,16 +1,36 @@
 /*jslint nomen: true*/
-/*globals window, document, define, $, _, localStorage, dataLayer, console, Modernizr, Fonts, alert*/
+/*globals window, document, define, $, _, localStorage, console, Backbone, alert*/
 
 require.config({
     deps: ['main'],
     paths: {
+        'backbone': '../bower_components/backbone/backbone-min',
+        'bootstrap': '../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min',
+        'handlebars': '../bower_components/handlebars/handlebars.amd.min',
         'jquery': '../bower_components/jquery/dist/jquery.min',
-        'bootstrap': '../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min'
+        'underscore': '../bower_components/underscore/underscore-min'
     },
-    shim: { 'bootstrap': { deps: ['jquery'] } }
+    shim: {
+        'bootstrap': {
+            deps: ['jquery']
+        },
+        'backbone': {
+            deps: ['underscore', 'jquery']
+        },
+        'underscore': {
+            exports: '_'
+        },
+        'jquery': {
+            exports: '$'
+        },
+        'handlebars': {
+            exports: 'handlebars'
+        }
+    }
 });
 
-define(['bootstrap'], function () {
+define(['bootstrap', 'backbone'], function () {
     'use strict';
-    console.log('whatever');
+    var App = {};
+    require(['router']);
 });
