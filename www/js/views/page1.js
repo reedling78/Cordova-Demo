@@ -25,8 +25,3 @@ define(['handlebars'], function (Handlebars) {
 
     new view();
 });
-
-
-
-
-

@@ -31,6 +31,5 @@ require.config({
 
 define(['bootstrap', 'backbone'], function () {
     'use strict';
-    var App = {};
     require(['router']);
 });

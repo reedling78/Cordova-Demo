@@ -21,12 +21,7 @@ define([], function () {
 
     });
 
-    if (_view) {
-        _view.render();
-    } else {
-        var _view = new view();
-    }  
-    
+    var _view = new view();
 });
 
 

@@ -16,15 +16,10 @@ define([], function () {
         },
 
         something: function () {
-            //alert('something');
+            console.log('something');
         }
 
     });
 
     new view();
 });
-
-
-
-
-
