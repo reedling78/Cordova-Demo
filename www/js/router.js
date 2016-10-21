@@ -14,26 +14,29 @@ define([], function () {
     app_router.on('route:defaultRoute', function (action) {
         var currentview = {};
 
+        function render(view) {
+            require(['views/' + view], function (View) {
+                if (window.app.views[view] !== undefined) {
+                    //window.app.views[view].remove();
+                    window.app.views[view].render();
+                } else {
+                    window.app.views[view] = new View();
+                }
+            });
+        }
+
         switch (action) {
         case 'page1':
-            require(['views/page1'], function (View) {
-                currentview = new View();
-            });
+            render('page1');
             break;
         case 'page2':
-            require(['views/page2'], function (View) {
-                currentview = new View();
-            });
+            render('page2');
             break;
         case 'page3':
-            require(['views/page3'], function (View) {
-                currentview = new View();
-            });
+            render('page3');
             break;
         default:
-            require(['views/page1'], function (View) {
-                currentview = new View();
-            });
+            render('page1');
         }
     });
 

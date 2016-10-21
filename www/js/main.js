@@ -28,8 +28,12 @@ require.config({
     }
 });
 
-define(['bootstrap', 'backbone'], function () {
+define(['bootstrap', 'backbone', 'views/layout'], function () {
     'use strict';
-    window.app = {};
+    window.app = {
+        views : {},
+        models : {},
+        collections : {}
+    };
     require(['router']);
 });
