@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"unde",
+				"undefined〔keyword〕"
+			],
+			[
 				"a",
 				"absolute"
 			],
@@ -319,6 +323,146 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1514,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/main.js",
+			"settings":
+			{
+				"buffer_size": 1092,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/bower_components/handlebars/handlebars.min.js",
+			"settings":
+			{
+				"buffer_size": 72614,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/router.js",
+			"settings":
+			{
+				"buffer_size": 1251,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/views/layout.js",
+			"settings":
+			{
+				"buffer_size": 353,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 597,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/views/page2.js",
+			"settings":
+			{
+				"buffer_size": 690,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/views/page1.js",
+			"settings":
+			{
+				"buffer_size": 589,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/views/page3.js",
+			"settings":
+			{
+				"buffer_size": 589,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 2071,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/templates/page1.hbs",
+			"settings":
+			{
+				"buffer_size": 50,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/models/widget.js",
+			"settings":
+			{
+				"buffer_size": 179,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/templates/page3.hbs",
+			"settings":
+			{
+				"buffer_size": 407,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/js/templates/page2.hbs",
+			"settings":
+			{
+				"buffer_size": 457,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/scss/main.scss",
+			"settings":
+			{
+				"buffer_size": 114,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/scss/_global.scss",
+			"settings":
+			{
+				"buffer_size": 36,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -328,9 +472,13 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "me",
+		"last_filter": "gist",
 		"selected_items":
 		[
+			[
+				"gist",
+				"Gist: Insert Gist"
+			],
 			[
 				"me",
 				"Emmet: Merge Lines"
@@ -338,10 +486,6 @@
 			[
 				"format",
 				"Format: Javascript"
-			],
-			[
-				"gist",
-				"Gist: Insert Gist"
 			],
 			[
 				"json",
@@ -545,10 +689,16 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/rizzor/Documents/Cordova/Cordova-Demo"
+		"/Users/rizzor/Documents/Cordova/Cordova-Demo",
+		"/Users/rizzor/Documents/Cordova/Cordova-Demo/www",
+		"/Users/rizzor/Documents/Cordova/Cordova-Demo/www/bower_components",
+		"/Users/rizzor/Documents/Cordova/Cordova-Demo/www/js",
+		"/Users/rizzor/Documents/Cordova/Cordova-Demo/www/js/models",
+		"/Users/rizzor/Documents/Cordova/Cordova-Demo/www/js/views"
 	],
 	"file_history":
 	[
+		"/Users/rizzor/Documents/Cordova/Cordova-Demo/www/views/page1.hbs",
 		"/Volumes/C/Code/fonts.com-web/Monotype.FontsCom.Web/Content/css/sass/views/_browse.scss",
 		"/Volumes/C/Code/fonts.com-web/Monotype.FontsCom.Web/Content/css/sass/global/_variables.scss",
 		"/Volumes/C/Code/fonts.com-web/Monotype.FontsCom.Web/Content/css/sass/global/_sort-bar.scss",
@@ -675,8 +825,7 @@
 		"/Volumes/C/Code/DEV/Monotype.FontsCom/Monotype.FontsCom.Web/Content/js/views/webfonts.marketing.js",
 		"/Volumes/C/Code/DEV/Monotype.FontsCom/Monotype.FontsCom.Web/Content/js/views/product.js",
 		"/Users/rizzor/Desktop/fonttest.htm",
-		"/Volumes/C/Code/DEV/Monotype.FontsCom/Monotype.FontsCom.Web/Views/BrowseFont/DesktopInventory.cshtml",
-		"/Volumes/C/Code/DEV/Monotype.FontsCom/Monotype.FontsCom.Web/Content/css/sass/global/_type.scss"
+		"/Volumes/C/Code/DEV/Monotype.FontsCom/Monotype.FontsCom.Web/Views/BrowseFont/DesktopInventory.cshtml"
 	],
 	"find":
 	{
@@ -822,6 +971,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"view",
+			"Template",
+			"tempPage1",
 			"ui-slider-handle",
 			"debugger",
 			"installRouter",
@@ -946,10 +1098,7 @@
 			"margin-bottom",
 			"scrollto",
 			"/browse/desktop-inventory",
-			"301",
-			"Monotype's standard Terms and Conditions of Business",
-			"’",
-			"”"
+			"301"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1005,8 +1154,509 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1092,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1031,
+								1031
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "www/bower_components/handlebars/handlebars.min.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 72614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3,
+								3
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "www/js/router.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								744,
+								744
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "www/js/views/layout.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "bower.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 597,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								520,
+								492
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "www/js/views/page2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								636,
+								636
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "www/js/views/page1.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								542,
+								542
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "www/js/views/page3.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								250,
+								211
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1788,
+								1788
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 124.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "www/js/templates/page1.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "www/js/models/widget.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_indent": true,
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "www/js/templates/page3.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "www/js/templates/page2.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								408,
+								395
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 14,
+					"file": "www/scss/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "www/scss/_global.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								33
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1027,16 +1677,36 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
+			0.5,
 			1.0
 		]
 	},
@@ -1597,7 +2267,7 @@
 		[
 			[
 				"",
-				"~/Documents/Sublime Projects/websockets.sublime-project"
+				"~/Documents/Sublime Projects/Dev.sublime-project"
 			],
 			[
 				"blog",
