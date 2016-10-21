@@ -1,16 +1,13 @@
 /*jslint nomen: true*/
 /*globals window, document, define, $, _, console, alert, Backbone*/
 
-define(['handlebars'], function (Handlebars) {
+define(['hbs!templates/page1'], function (template) {
     'use strict';
     var view = Backbone.View.extend({
         el: $('[data-context="main-content"]'),
 
         initialize: function () {
-            console.log('Page 1 View Initialized');
-            // console.log(handlebars);
-            console.log(Handlebars);
-            console.log(this.el);
+            this.render();
         },
 
         events : {
@@ -18,10 +15,13 @@ define(['handlebars'], function (Handlebars) {
         },
 
         something: function () {
-            //alert('something');
+            console.log('something');
+        },
+        render: function () {
+            this.$el.html(template({}));
         }
 
     });
 
-    new view();
+    return view;
 });

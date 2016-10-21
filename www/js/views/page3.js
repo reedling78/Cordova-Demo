@@ -1,14 +1,13 @@
 /*jslint nomen: true*/
 /*globals window, document, define, $, _, console, alert, Backbone*/
 
-define([], function () {
+define(['hbs!templates/page3'], function (template) {
     'use strict';
     var view = Backbone.View.extend({
         el: $('[data-context="main-content"]'),
 
         initialize: function () {
-            console.log('Page 3 View Initialized');
-
+            this.render();
         },
 
         events : {
@@ -16,15 +15,13 @@ define([], function () {
         },
 
         something: function () {
-            //alert('something');
+            console.log('something');
+        },
+        render: function () {
+            this.$el.html(template({}));
         }
 
     });
 
-    var _view = new view();
+    return view;
 });
-
-
-
-
-

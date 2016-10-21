@@ -3,12 +3,14 @@
 
 require.config({
     deps: ['main'],
+    baseUrl: 'js',
     paths: {
         'backbone': '../bower_components/backbone/backbone-min',
         'bootstrap': '../bower_components/bootstrap-sass/assets/javascripts/bootstrap.min',
-        'handlebars': '../bower_components/handlebars/handlebars.amd.min',
         'jquery': '../bower_components/jquery/dist/jquery.min',
-        'underscore': '../bower_components/underscore/underscore-min'
+        'underscore': '../bower_components/underscore/underscore-min',
+        'handlebars': '../bower_components/handlebars/handlebars.min',
+        'hbs': '../bower_components/require-handlebars-plugin/hbs'
     },
     shim: {
         'bootstrap': {
@@ -22,14 +24,12 @@ require.config({
         },
         'jquery': {
             exports: '$'
-        },
-        'handlebars': {
-            exports: 'handlebars'
         }
     }
 });
 
 define(['bootstrap', 'backbone'], function () {
     'use strict';
+    window.app = {};
     require(['router']);
 });
